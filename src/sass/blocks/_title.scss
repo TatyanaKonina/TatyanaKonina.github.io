@@ -1,0 +1,21 @@
+.title{
+    font-weight: bold;
+    color: #000000;
+    font-size: 24px;
+    line-height: 27px;
+    
+    &_fz18{
+        font-size: 18px;
+    }
+    &_fz64{
+        font-size: 64px;line-height: 71px;
+    }
+    &-box{
+        display: flex;
+        justify-content: center;
+        position: relative;
+       
+        @include divider_before;
+    }
+
+}
