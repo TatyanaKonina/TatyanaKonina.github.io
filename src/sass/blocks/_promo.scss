@@ -1,26 +1,20 @@
 .promo {
     min-height: 100vh;
     background-color: $main-color;
-    // padding-top: 80px;
-    display: flex;
-
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 60% 40%;
 
     &__wrapper {
-        width: 898px;
-        margin: 0 auto;
+        padding: 0 140px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
     }
-
     &__nav {
-        position: absolute;
-        padding-top: 80px;
-        top: 0;
-        width: 898px;
+        margin-top: 80px;
+        position: relative;
         @include divider_after;
-        // width: 100%;
     }
-
     &__list {
         list-style-type: none;
         display: flex;
@@ -28,23 +22,34 @@
         align-items: center;
         justify-content: space-between;
     }
-    
-    &__subtitle{
-       
-        position  : relative;
-        text-align: center;
+    &__info {
+        margin: auto;
+        // transform: translateY(-50%);
+
+    }
+    &__img {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__subtitle {
         padding: 0 20px 0 20px;
+        z-index: 1;
         background-color: $main-color;
     }
     &__title{
+        position: relative;
         text-align: center;
-        margin-top: 15px;
-        letter-spacing: 0.05em;
+        // letter-spacing: 0.05em;
         @include divider_after;
     }
-    &__links{
+    &__links {
         margin-top: 50px;
     }
-
-
+    &__link{
+        margin-right: 10px;
+    }
 }
