@@ -8,17 +8,13 @@
     <title>Portfolio</title>
     <meta name="title" content="Мое портфолио">
     <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-
-
-
-
-
+    
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
     <aside class="sidepanel">
-        
+
         <a href="" class="sidepanel__link">
             <img src="icons/links/instagram.svg" alt=""></a>
         <a href="" class="sidepanel__link">
@@ -27,6 +23,10 @@
         <div class="sidepanel__divider"></div>
         <div class="sidepanel__text"><span>Социальные сети</span> </div>
     </aside>
+    <div class="hamburger">
+        <span></span>
+        <span class="long"></span><span></span>
+    </div>
     <!-- <div class="menu">
         <div class="menu__block">
             <div class="menu__close">
@@ -50,7 +50,7 @@
     </div> -->
 
 
-    <section class="promo">
+    <section id='up' class="promo">
         <div class="promo__wrapper">
             <nav class="promo__nav">
                 <ul class="promo__list">
@@ -74,7 +74,7 @@
 
                 <h1 class="title title__section-subtitle promo__title">Меня зовут Татьяна Конина и я хочу попасть на
                     стажировку в Tinkoff</h1>
-                
+
             </div>
 
         </div>
@@ -278,19 +278,19 @@
                 <form action="#" class="contacts__form">
                     <p>Или оставьте ваши данные и я сама вам напишу:</p>
                     <div class="contacts__input">
-                        <input  placeholder=" " required id="name" type="text">
-                        <label  for="name" >Имя</label>
+                        <input placeholder=" " required id="name" type="text">
+                        <label for="name">Имя</label>
                     </div>
                     <div class="contacts__input">
                         <input placeholder=" " required id="email" type="email">
-                        <label  for="name" >Почта</label>
+                        <label for="name">Почта</label>
                     </div>
                     <div class="contacts__textarea">
                         <textarea placeholder="" name="text" id="text" cols="30" rows="10">
-                            
+
                         </textarea>
-                        <label  for="name" >Ваше сообщение</label>
-                        
+                        <label for="name">Ваше сообщение</label>
+
                     </div>
                     <div class="contacts__triggers">
                         <button class="contacts__btn ">Отправить</button>
@@ -304,6 +304,11 @@
             </div>
         </div>
     </section>
+    <a href="#up" id='pageup' class="pageup hide">
+        <img src="icons/up.svg" alt="up">
+
+    </a>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
