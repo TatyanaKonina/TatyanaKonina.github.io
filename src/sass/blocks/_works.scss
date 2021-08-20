@@ -3,14 +3,14 @@
 
     &__wrapper {
         display: grid;
-        grid-template-columns: 400px 480px;
+        grid-template-columns: 580px 400px;
         justify-content: space-between;
         align-items: center;
     }
 
     &__items {
         display: grid;
-        grid-template-columns: repeat(3, 180px);
+        grid-template-columns: repeat(3, 200px);
         grid-template-rows: repeat(2, 180px);
         grid-auto-rows: 180px;
         gap: 15px;
@@ -45,4 +45,5 @@
         z-index: 0;
         padding: 10px;
     }
+  
 }
