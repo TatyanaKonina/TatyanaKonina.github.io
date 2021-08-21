@@ -15,6 +15,7 @@
      ul {
          margin-bottom: 0;
      }
+
  }
 
  .container {
@@ -29,16 +30,25 @@
      height: 80px;
      width: 80px;
      background-color: $main-color;
-     
+
      @include side-box;
 
      &::before {
          top: -20%;
          left: -20%;
-     }transform: scaleX(-1) scaleY(-1);
+     }
+
+     transform: scaleX(-1) scaleY(-1);
 
  }
 
+ a,
+ a:link,
+ a:visited,
+ a:active,
+ a:hover {
+     border: 0 !important;
+ }
 
  @import 'blocks/title';
  @import 'blocks/promo';
