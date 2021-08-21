@@ -3,9 +3,10 @@
 
     &__wrapper {
         display: grid;
-        grid-template-columns: 580px 400px;
+        grid-template-columns: 1.5fr 1fr;
         justify-content: space-between;
         align-items: center;
+        column-gap: 50px;
     }
 
     &__items {

@@ -8,8 +8,9 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
   let promoH = document.querySelector('.promo').offsetHeight - 150;
-  console.log(promoH);
-  if (currentScrollPos < promoH){
+  let screenW = document.querySelector('.promo').clientWidth;
+  console.log(screenW);
+  if (currentScrollPos < promoH || screenW < 1400){
     document.querySelector(".sidepanel").style.display = 'none';
   }
   else{

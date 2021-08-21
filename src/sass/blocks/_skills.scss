@@ -13,7 +13,7 @@
     &__wrapper {
         margin-top: 150px;
         display: grid;
-        grid-template-columns: minmax(200px, 400px) minmax(200px, 720px);
+        grid-template-columns: 1fr 1.5fr;
         justify-content: space-between;
         align-items: center;
         column-gap: 90px;
@@ -45,7 +45,7 @@
         grid-template-columns: repeat(4, minmax(120px, 470px));
         grid-template-rows: repeat(2, minmax(auto,180px));
         grid-auto-rows: 230px;
-        gap: 20px;
+        gap: 15px;
 
         .horizonal_2row {
             grid-column: 1/4;

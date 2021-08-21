@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .promo {
+        &__wrapper {
+            margin: 0 50px;
+        }
+
+    }
+
+    .skills {
+
+        // &__wrapper {
+        //     grid-template-columns: minmax(auto, 350px) minmax(200px, 720px);
+            // column-gap: 50px;
+        // }
+
+        &__item {
+            padding: 15px;
+    
+        }
+    }
+    .works{
+
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
