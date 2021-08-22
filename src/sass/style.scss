@@ -23,6 +23,17 @@
      // margin: 0 140px;
      margin: 0 auto;
  }
+ .side-box{
+    width: 100%;
+    height: 100%;
+    background-color: $second-color;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 0;
+
+
+ }
 
  .decor-element {
      margin-top: 100px;
