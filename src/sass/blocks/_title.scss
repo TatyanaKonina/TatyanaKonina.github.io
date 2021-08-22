@@ -24,6 +24,8 @@
         display: flex;
         justify-content: center;
         position: relative;
+        min-height: 50px;
+        align-items:center;
         @include divider_before;
     }
     &__section-title{
