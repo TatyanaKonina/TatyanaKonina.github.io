@@ -37,7 +37,7 @@ $("a[href^='#']").click(function () {
 });
 
 $('form').submit(function (e) {
-  e.prventDefault();
+  e.preventDefault();
   $.ajax({
     type: 'POST',
     url: '/dist/mailer/smart.php',
