@@ -16,7 +16,7 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = 'portfolio_mail@mail.ru';                 // Наш логин
 $mail->Password = 'wMqKz0rIuZr1k21inbEn';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;                                    // TCP port to connect to
+$mail->Port = 465;                                    // TCP port to connect to
  
 $mail->setFrom('', 'Pulse');   // От кого письмо 
 $mail->addAddress('tdkonina@edu.hse.ru');     // Add a recipient
