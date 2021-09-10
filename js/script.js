@@ -40,7 +40,7 @@ $('form').submit(function (e) {
   e.preventDefault();
   $.ajax({
     type: 'POST',
-    url: 'mailer/smart.php',
+    url: '/dist/mailer/smart.php',
     data: $(this).serialize()
   }).done(function () {
     $(this).find('input').val('');
@@ -49,3 +49,4 @@ $('form').submit(function (e) {
   });
   return false;
 });
+new WOW().init();
